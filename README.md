@@ -1,4 +1,3 @@
-# tool-tmux
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) Tmux 入門筆記
 > ##### 這篇的操作是以macOS為主，以及常用指令記錄
 ---
@@ -63,25 +62,26 @@ tmux new -s <new_session_name>
 
 ```bash
 # 重新命名 session
-# 更換現有的session名稱
-# 替只有編號沒有名稱的session命名
+# 可更換現有的session名稱
+# 可替只有編號沒有名稱的session命名
 tmux rename-session -t <session_name> <new_session_name>
 tmux rename-session -t <session_num> <new_session_name>
 ```
 
 ```bash
-# 列出所有 session
+# 列出所有 session (列表上的第一個數字就是session_num)
 tmux ls
 ```
 > 0: 5 windows (created Wed Dec  4 10:02:22 2019) <br>
 1: 1 windows (created Wed Dec  4 10:12:14 2019)
+
+<br>
 
 ```bash
 # 重新連線 session (下列幾種方式都可以)
 # session_num 可以從列表中查到
 # session_name 新增session時所命名的名稱
 # attach 可用縮寫 a 或 at 代替
-
 tmux attach -t <session_num>
 tmux attach -t <session_name>
 tmux a -t <session_num>
