@@ -149,9 +149,11 @@ window就是指整個終端機的畫面，而一個session可以有多個window.
 <br>
 
 ## 參考資料
-* [官方文件](https://man.openbsd.org/OpenBSD-current/man1/tmux.1)
-https://dywang.csie.cyut.edu.tw/dywang/security/node98.html
-https://blog.gtwang.org/linux/linux-tmux-terminal-multiplexer-tutorial/
+* [技術文件](https://man.openbsd.org/OpenBSD-current/man1/tmux.1)
+* [dywang - TMUX 多視窗](https://dywang.csie.cyut.edu.tw/dywang/security/node98.html)
+* [gtwang - Linux tmux 終端機管理工具](https://blog.gtwang.org/linux/linux-tmux-terminal-multiplexer-tutorial/)
+
+
 
 ---
 <br>
