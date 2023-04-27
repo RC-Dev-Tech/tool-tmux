@@ -8,9 +8,9 @@
 * [安裝](#安裝)
 * [基本說明](#基本說明)
 * [基本操作](#基本操作)
-  * [會話 session](#session)
-  * [視窗 window](#window)
-  * [切割 pane](#pane)
+ * [會話 session](#session)
+ * [視窗 window](#window)
+ * [切割 pane](#pane)
 <!--te-->
 
 ---
