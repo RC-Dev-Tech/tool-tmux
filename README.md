@@ -8,9 +8,9 @@
 * [安裝](#安裝)
 * [基本說明](#基本說明)
 * [基本操作](#基本操作)
- * [會話 session](#session)
- * [視窗 window](#window)
- * [切割 pane](#pane)
+  * [會話 session](#session)
+  * [視窗 window](#window)
+  * [切割 pane](#pane)
 <!--te-->
 
 ---
@@ -39,7 +39,7 @@ tmux 除了是一個很方便的終端機畫面管理套件之外，最重要的
 `所以最常被用在ssh連線至雲端機器，並且希望關閉ssh之後還可以持續運行在雲端機器的背景上.`
 
 當切換到tmux的環境下，會看到最下方有一條綠色的狀態列
-![](https://drive.google.com/uc?id=1Xd-nW0K7Dhug43eD9okNhV6If7V8xPL8)
+<img src="https://drive.google.com/uc?id=1Xd-nW0K7Dhug43eD9okNhV6If7V8xPL8" width=50% height=50%/>
 
 在tmux的所有快捷操作上，都會有一個預先動作，預設就是按下`control`加上`b`鍵後,會進入等待輸入快捷的狀態，此時在接著按下對應的快捷鍵才會有作用.
 > ##### 備註： 快捷鍵的操作，僅限於在切換進入到tmux的環境下使用！
