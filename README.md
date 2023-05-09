@@ -1,7 +1,7 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) Tmux 入門筆記
 > ##### 這篇的操作是以macOS為主，以及常用指令記錄
+
 ---
-<br>
 
 <!--ts-->
 ## 目錄
@@ -14,7 +14,6 @@
 <!--te-->
 
 ---
-<br>
 
 ## 安裝
 - 安裝[Homebrew](https://brew.sh/index_zh-tw.html) <br>
@@ -31,7 +30,6 @@ tmux -V
 > tmux 3.0.a
 
 ---
-<br>
 
 ## 基本操作
 tmux 除了是一個很方便的終端機畫面管理套件之外，最重要的是，他可以在將session放在機器背景運作，而不會像一般的終端機一樣，視窗關閉後，原本在運行的程序就會關閉. 
@@ -46,7 +44,6 @@ tmux 除了是一個很方便的終端機畫面管理套件之外，最重要的
 > ##### 備註： 快捷鍵的操作，僅限於在切換進入到tmux的環境下使用！
 
 ---
-<br>
 
 ## session
 每一個session，可以看做是一個執行緒的終端機，而每個session是各自獨立的.
@@ -116,7 +113,6 @@ tmux kill-server
 | <ctrl+b> + )  | 切換至下一個 session |
 
 ---
-<br>
 
 ## window
 window就是指整個終端機的畫面，而一個session可以有多個window.
@@ -131,7 +127,6 @@ window就是指整個終端機的畫面，而一個session可以有多個window.
 | <ctrl+b> + &  | 關閉目前的 window 視窗 |
 
 ---
-<br>
 
 ## pane
 每一個window都可以切成多個小區塊，而每個區塊都是一個pane.
@@ -147,19 +142,14 @@ window就是指整個終端機的畫面，而一個session可以有多個window.
 | <ctrl+b> + x  | 關閉目前的 pane <br>備註：下方會跳出確認提示|
 
 ---
-<br>
 
 ## 參考資料
 * [技術文件](https://man.openbsd.org/OpenBSD-current/man1/tmux.1)
 * [dywang - TMUX 多視窗](https://dywang.csie.cyut.edu.tw/dywang/security/node98.html)
 * [gtwang - Linux tmux 終端機管理工具](https://blog.gtwang.org/linux/linux-tmux-terminal-multiplexer-tutorial/)
 
-
-
 ---
-<br>
 
----
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
